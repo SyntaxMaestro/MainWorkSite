@@ -43,7 +43,7 @@ const stats = [
                     />
                     <use href="#0ef284b8-28c2-426e-9442-8655d393522e" x={86} />
                   </svg>
-                  <img src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" className="h-12 w-auto" />
+                  <img src="https://svgur.com/i/16ji.svg" alt="" className="h-12 w-auto" />
                   <blockquote className="mt-6 text-xl font-semibold leading-8 text-white">
                     <p>
                       “Amet amet eget scelerisque tellus sit neque faucibus non eleifend. Integer eu praesent at a. Ornare

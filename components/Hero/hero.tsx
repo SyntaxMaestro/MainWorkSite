@@ -23,11 +23,6 @@ export default function Hero() {
       </svg>
       <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8">
-          <img
-            className="h-11"
-            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-            alt="Your Company"
-          />
           <div className="mt-24 sm:mt-32 lg:mt-16">
             <a href="#" className="inline-flex space-x-6">
             </a>
@@ -55,7 +50,7 @@ export default function Hero() {
           <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
             <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
               <img
-                src="https://tailwindui.com/img/component-images/project-app-screenshot.png"
+                src="https://i.imgur.com/DzZty8p.jpg"
                 alt="App screenshot"
                 width={2432}
                 height={1442}

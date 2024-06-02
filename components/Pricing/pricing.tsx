@@ -82,7 +82,7 @@ export default function Pricing() {
           <RadioGroup
             value={frequency}
             onChange={setFrequency}
-            className="grid grid-cols-2 gap-x-1 rounded-full bg-white/5 p-1 text-center text-xs font-semibold leading-5 text-white"
+            className="grid grid-cols-2 gap-x-1 rounded-full p-1 text-center text-xs font-semibold leading-5 text-white"
           >
             <RadioGroup.Label className="sr-only">Payment frequency</RadioGroup.Label>
             {frequencies.map((option) => (
@@ -103,7 +103,7 @@ export default function Pricing() {
             <div
               key={tier.id}
               className={classNames(
-                tier.mostPopular ? 'bg-white/5 ring-2 ring-indigo-500' : 'ring-1 ring-white/10',
+                tier.mostPopular ? 'ring-2 ring-indigo-500' : 'ring-1 ring-white/10',
                 'rounded-3xl p-8 xl:p-10'
               )}
             >
@@ -128,7 +128,7 @@ export default function Pricing() {
                 className={classNames(
                   tier.mostPopular
                     ? 'bg-indigo-500 text-white shadow-sm hover:bg-indigo-400 focus-visible:outline-indigo-500'
-                    : 'bg-white/10 hover:bg-white/20 focus-visible:outline-white',
+                    : 'hover: focus-visible:outline-white',
                   'mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2'
                 )}
               >
